@@ -11,6 +11,7 @@
 		B0DA3D142AD8494C00CEFEAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DA3D132AD8494C00CEFEAA /* ContentView.swift */; };
 		B0DA3D162AD8494E00CEFEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0DA3D152AD8494E00CEFEAA /* Assets.xcassets */; };
 		B0DA3D192AD8494E00CEFEAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0DA3D182AD8494E00CEFEAA /* Preview Assets.xcassets */; };
+		B0DA3D212AD8681300CEFEAA /* CurrencyConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DA3D202AD8681300CEFEAA /* CurrencyConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B0DA3D132AD8494C00CEFEAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B0DA3D152AD8494E00CEFEAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0DA3D182AD8494E00CEFEAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0DA3D202AD8681300CEFEAA /* CurrencyConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				B0DA3D112AD8494C00CEFEAA /* CryptocurrrencyConverterAppApp.swift */,
 				B0DA3D132AD8494C00CEFEAA /* ContentView.swift */,
+				B0DA3D1F2AD8677800CEFEAA /* Managers */,
 				B0DA3D152AD8494E00CEFEAA /* Assets.xcassets */,
 				B0DA3D172AD8494E00CEFEAA /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				B0DA3D182AD8494E00CEFEAA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B0DA3D1F2AD8677800CEFEAA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B0DA3D202AD8681300CEFEAA /* CurrencyConverter.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0DA3D212AD8681300CEFEAA /* CurrencyConverter.swift in Sources */,
 				B0DA3D142AD8494C00CEFEAA /* ContentView.swift in Sources */,
 				B0DA3D122AD8494C00CEFEAA /* CryptocurrrencyConverterAppApp.swift in Sources */,
 			);
